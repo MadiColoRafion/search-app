@@ -17,7 +17,7 @@ export class SurlignerDirective {
   onClick(event: MouseEvent): void {
     if (this.elementRef)
     {
-      this.render.setStyle(event.target, 'backgroundColor', 'green' );
+      this.render.setStyle(event.target, 'backgroundColor', 'green');
     }
   }
 
