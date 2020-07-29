@@ -1,0 +1,11 @@
+
+<div class="repas"  (click)="showMyContainer=!showMyContainer">
+    <label class="col-4"> {{nom}}</label>  <label class="col-4">{{quantite}}</label><label ><button class="btn btn-danger" (click)='delete()'>Supprimer</button></label>
+</div>
+<div class=" row show" *ngIf="showMyContainer">
+<ul >
+    <li><label>Proteine :</label><input class="input" type="text" [(ngModel)]="proteine"/></li>
+    <li><label>Glucides :</label><input  class="input" type="text" [(ngModel)]="glucide"/></li>
+    <li><label>Lipides :</label><input  class="input" type="text" [(ngModel)]="lipide"/></li>
+</ul>
+</div>

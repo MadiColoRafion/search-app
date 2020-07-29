@@ -1,0 +1,51 @@
+.repas{
+    margin-top: 10px;
+    font-family: Arial;
+    margin-left: 30%;
+    height: 60px;
+    margin-right: 500px;;
+    text-align: center;
+    background: #A7CDC8;
+    padding: 30px;
+    padding-bottom:-30px;
+}
+
+.show{
+    margin-top: 10px;
+    margin-left: 30%;
+    height: 150px;
+    margin-right: 500px;
+    background: #AEBCBA;
+    padding: 30px;
+    padding-bottom:-70px;
+    font-family: Arial;
+
+}
+.btn-danger{
+    margin-top: -25px;
+}
+
+input {
+    width: 300px;
+    align-self:center;
+   
+}
+label
+{
+	width: 150px; 
+}
+
+.input{ 
+    background-color: transparent;
+    border-radius: 0;
+    border-color:#00BFFF;
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    font-family: inherit;
+    font-size: 1em;
+  }
+  li{
+   
+  }

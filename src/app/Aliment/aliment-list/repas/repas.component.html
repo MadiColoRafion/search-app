@@ -1,0 +1,5 @@
+<div class='result'>
+    <div *ngFor="let aliment of repasAliments">
+       <app-aliment-details [aliment]='aliment' (onDelete)='delete($event)'></app-aliment-details>
+    </div>
+</div>

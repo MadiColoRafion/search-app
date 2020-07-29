@@ -1,0 +1,20 @@
+<br>
+<div class=" row ">
+   <div class="col-7"><input type="text" class="form-control" placeholder="search food" [(ngModel)]='rechercheAliment'/></div>
+   <div class="col-4"><button class='btn btn-success' (click)='rechercher()'> Rechercher</button></div>
+</div>
+<br>
+<table class="table table">
+    <tr>
+        <th>Aliment</th>
+        <th>Action</th> 
+    </tr>
+    <tr *ngFor='let aliment of filterAliments'>
+        <td>{{aliment.nom}}</td> 
+        <td> <button class='btn btn-info' (click)='onAdd(aliment)'> Ajouter</button></td> 
+    </tr>
+</table>
+<br>
+<hr>
+
+

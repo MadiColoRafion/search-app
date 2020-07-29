@@ -1,10 +1,17 @@
 import { Component } from '@angular/core';
+import { Aliment } from './Aliment/aliment-list/repas/models/aliment';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent {
-  title = 'search-app';
+
+  aliment: Aliment;
+
+  title = 'Search Food';
 }
